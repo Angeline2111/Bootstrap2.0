@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ff9900;
+}
+
+        /* Estilos del carrusel */
+        #carouselExample {
+            margin: 20px auto; /* Centrar horizontalmente */
+            max-width: 800px; /* Tamaño máximo del carrusel */
+            background-color: #333; /* Color de fondo */
+            border-radius: 10px; /* Bordes redondeados */
+            overflow: hidden; /* Ocultar contenido que se desborda */
+        }
+
+        .carousel-inner {
+            position: relative;
+        }
+
+        .carousel-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 10px; /* Bordes redondeados para las imágenes */
+        }
+
+       /* Estilos del carrusel */
+       #carouselExample {
+        margin: 20px auto; /* Centrar horizontalmente */
+        max-width: 800px; /* Tamaño máximo del carrusel */
+        background-color: #333; /* Color de fondo */
+        border-radius: 10px; /* Bordes redondeados */
+        overflow: hidden; /* Ocultar contenido que se desborda */
+    }
+
+    .carousel-inner {
+        position: relative;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 10px; /* Bordes redondeados para las imágenes */
+    }
+
+    /* Estilos de los botones de control */
+    .carousel-control-prev,
+    .carousel-control-next {
+        
+        border: none;
+        border-radius: 50%;
+        color: #333;
+        font-size: 16px; /* Tamaño de la flecha */
+        padding: 5px; /* Espaciado interno */
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        transition: background-color 0.3s; /* Transición suave */
+    }
+
+    .carousel-control-prev {
+        left: 10px;
+    }
+
+    .carousel-control-next {
+        right: 10px;
+    }
+
+  
+
+     
